@@ -188,7 +188,6 @@ main div div p{
   color: rgb(191, 171, 21);
 }
 /*Termina Golden Wind*/
-
 /*---Termina el Cuerpo Principal---*/
 
 
@@ -208,6 +207,7 @@ main div div p{
 .container-footer .footerList a{ 
   margin: 20px 25px;
 }
+
 .container-footer .footerList a:hover{ 
   transform: scale(1.5);
   transition: 0.3s;
