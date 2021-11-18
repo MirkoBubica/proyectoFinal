@@ -9,34 +9,29 @@
   }
 /*Barra de Navegación*/
 header {
-    position: relative;
-    top: 0;
     width: 100%;
-    padding: 10px 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 
     background-image:url(../imagenesProyecto/fondoJojoTextura.png);
-    background-repeat:no-repeat;
-    background-position: center center;
     background-attachment: fixed;
     background-size: cover;
 }
 
 header .logo{
-    margin-inline-start: 0px;
+    margin-inline-start: 100px;
     margin-inline-end: 0px;
     height:70px;
-    display:block;
 }
 header .navegacion a:not(:last-child) {
     margin-right: 30px;
 }
+header div{
+    margin-right: 70px;
+}
 header div a{
-    margin: 0;
-    padding: 0;
-    
+      
     font-family: 'PT Sans', sans-serif;
     color: rgb(225, 225, 26);
     background-color:rgb(77, 25, 77);
@@ -68,6 +63,9 @@ body{
     background-position: center center;
     background-attachment: fixed;
     background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 
@@ -83,20 +81,14 @@ body{
     display: inline-block;
     padding:20px;
     margin: 10px;
-    max-width: 1000px;
-    max-height: 1000px;
-    
-
+    max-width: 960px;
 }
 .principal .carrusel .carousel-inner{
-    border: 2pxb solid black;
+    border: 2px solid black;
 }
 .principal .info{
     font-family: 'Poppins', sans-serif;
-    display:block;
     padding:20px;
-    margin: auto;
-
 }
 .principal .info p{
     text-align: left;
@@ -110,37 +102,28 @@ body{
 
 /*Footer*/
 .container-footer{
+    margin-top: auto;
     background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-    background-repeat:no-repeat;
-    background-position: center;
-    background-attachment: fixed;
-    background-size: cover;
-
-    display: block;
-    padding: 20px;
-    margin: 0px;
-    align-self: flex-end;
 }
 
 .container-footer .footerList{ 
-    padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
+
 .container-footer .footerList a{ 
-    margin-left: 25px;
-    margin-right: 25px;
-    position: relative;
-    
+    margin: 20px 25px;
 }
 .container-footer .footerList a:hover{ 
     transform: scale(1.5);
     transition: 0.3s;
-}
-.container-footer .footerList a img{
-    height:20px;
-}
 
+}
+.fab, .far{
+    width: 100%;
+    color: rgb(157, 157, 157);
+}
 
 /*---Termina Footer---*/

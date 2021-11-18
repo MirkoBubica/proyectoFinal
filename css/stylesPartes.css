@@ -1,41 +1,37 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
-* {
+*{
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 /*Barra de Navegación*/
 header {
-  position: relative;
-  top: 0;
   width: 100%;
-  padding: 10px 100px;
   display: flex;
   justify-content: space-between;
   align-items: center;
 
   background-image:url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-  background-repeat:no-repeat;
-  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
 }
 header .logo{
-  margin-inline-start: 0px;
+  margin-inline-start: 100px;
   margin-inline-end: 0px;
   height:70px;
-  display:block;
 }
+
 header .navegacion a:not(:last-child) {
   margin-right: 30px;
 }
+header div{
+  margin-right: 70px;
+}
 header div a{
-  margin: 0;
-  padding: 0;
-  
+      
   font-family: 'PT Sans', sans-serif;
   color: rgb(255, 255, 255);
   background-color:rgb(31, 29, 31);
@@ -58,12 +54,6 @@ header div a:hover{
 /*---Termina Barra de Navegación---*/
 
 
-
-  
-
-  
-
-
 /*Cuerpo Principal*/
 
 body{
@@ -72,197 +62,130 @@ body{
   background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-  overflow: auto;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .container-all{
-  margin: 100px;
-  padding:10px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  display: inline-block;
-  
-  border-radius: 20px;
-  
-  
-
+  margin: 50px 100px;
 }
 .titulo-header{ 
   margin-top: 10px;
-  margin-bottom: 0px;
-  display: flex;
-  justify-content: center;
+  text-align: center;
   font-family: 'Poppins', sans-serif;
   font-weight: 400;
 }
 
 /*Partes de Jojo*/
-
-/*Phantom Blood*/
-.container-all .container-pb{
-  border: solid 3px rgb(177, 2, 29);
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-  margin-bottom: 20px;
-  display: inline-block;
-  border-radius: 20px;
+main div div{
   margin: 10px;
-  padding:50px; 
+  padding: 50px;
+  display: inline-block;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
   margin-bottom: 30px;
+  border-radius: 2vh; 
 }
-.container-all .container-pb img{
+main div div img{
+  float: left;
   margin-right: 20px;
   margin-bottom: 10px;
-  width: 190px;
-  float: left;
 }
-.container-all .container-pb h2{
-  color: rgb(199, 31, 137);
-  text-shadow: 1px 1px rgb(171, 116, 116);
+main div div h2{
   margin-bottom: 20px ;
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
 }
-.container-all .container-pb p{
-  text-shadow: 1px 1px rgb(24, 1, 28);
-  color: rgb(213, 24, 153);
+main div div p{
   font-size: 19px;
   font-weight: 300;
   font-family: 'Poppins', sans-serif;
+}
+/*Phantom Blood*/
+.container-all .container-pb{
+  border: solid 3px rgb(177, 2, 29);
+}
+.container-all .container-pb img{
+  width: 190px;
+}
+.container-all .container-pb h2{
+  color: rgb(199, 31, 137);
+  text-shadow: 1px 1px rgb(171, 116, 116);
+}
+.container-all .container-pb p{
+  text-shadow: 1px 1px rgb(24, 1, 28);
+  color: rgb(213, 24, 153);
 }
 /*Termina Phantom Blood*/
 
 /*Battle Tendency*/
 .container-all .container-bt{
   border: solid 3px rgb(25, 227, 2);
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-  margin-bottom: 20px;
-  display: inline-block;
-  border-radius: 20px;
-  margin: 10px;
-  padding:50px; 
-  margin-bottom: 30px;
 }
 .container-all .container-bt img{
-  margin-right: 20px;
-  margin-bottom: 10px;
   width: 200px;
-  float: left;
 }
 .container-all .container-bt h2{
   color: rgb(233, 244, 27);
   text-shadow: 1px 1px rgb(64, 72, 36);
-  margin-bottom: 20px ;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
 }
 .container-all .container-bt p{
   text-shadow: 1px 1px rgb(24, 1, 28);
   color: rgb(144, 205, 23);
-  font-size: 19px;
-  font-weight: 300;
-  font-family: 'Poppins', sans-serif;
 }
 /*Termina Battle Tendency*/
 
 /*Stardust Crusaders*/
 .container-all .container-stc{
   border: solid 3px rgb(131, 0, 157);
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-  margin-bottom: 20px;
-  display: inline-block;
-  border-radius: 20px;
-  margin: 10px;
-  padding:50px; 
-  margin-bottom: 30px;
 }
 .container-all .container-stc img{
   border: solid 3px rgb(186, 0, 186);
-  margin-right: 20px;
-  margin-bottom: 10px;
   width: 200px;
-  float: left;
 }
 .container-all .container-stc h2{
   color: rgb(175, 0, 184);
   text-shadow: 1px 1px rgb(121, 1, 145);
-  margin-bottom: 20px ;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
 }
 .container-all .container-stc p{
   text-shadow: 1px 1px rgb(24, 1, 28);
   color: rgb(156, 0, 164);
-  font-size: 19px;
-  font-weight: 300;
-  font-family: 'Poppins', sans-serif;
 }
 /*Termina Stardust Crusaders*/
 
 /*Diamon Is Unbreakable*/
 .container-all .container-diu{
   border: solid 3px rgb(111, 30, 250);
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-  margin-bottom: 20px;
-  display: inline-block;
-  border-radius: 20px;
-  margin: 10px;
-  padding:50px; 
-  margin-bottom: 30px;
 }
 .container-all .container-diu img{
   border: solid 3px rgb(120, 30, 245);
-  margin-right: 20px;
-  margin-bottom: 10px;
   width: 200px;
-  float: left;
 }
 .container-all .container-diu h2{
   color: rgb(100, 52, 244);
   text-shadow: 1px 1px rgb(70, 37, 232);
-  margin-bottom: 20px ;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
 }
 .container-all .container-diu p{
   text-shadow: 1px 1px rgb(24, 1, 28);
   color: rgb(111, 28, 255);
-  font-size: 19px;
-  font-weight: 300;
-  font-family: 'Poppins', sans-serif;
 }
 /*Termina Diamond Is Unbreakable*/
 
 /*Golden wind*/
 .container-all .container-gw{
   border: solid 3px rgb(213, 199, 47);
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-  margin-bottom: 20px;
-  display: inline-block;
-  border-radius: 20px;
-  margin: 10px;
-  padding:50px; 
-  margin-bottom: 30px;
 }
 .container-all .container-gw img{
   border: solid 3px rgb(223, 199, 22);
-  margin-right: 20px;
-  margin-bottom: 10px;
   width: 200px;
-  float: left;
 }
 .container-all .container-gw h2{
   color: rgb(223, 199, 22);
   text-shadow: 1px 1px rgb(132, 118, 14);
-  margin-bottom: 20px ;
-  font-family: 'Poppins', sans-serif;
-  font-weight: 500;
 }
 .container-all .container-gw p{
   text-shadow: 1px 1px rgb(24, 1, 28);
   color: rgb(191, 171, 21);
-  font-size: 19px;
-  font-weight: 300;
-  font-family: 'Poppins', sans-serif;
 }
 /*Termina Golden Wind*/
 
@@ -270,43 +193,29 @@ body{
 
 
 /*Footer*/
-footer{
+.container-footer{
+  margin-top: auto;
   background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
-  background-repeat:no-repeat;
-  background-position: center;
-  background-attachment: fixed;
-  background-size: cover;
-
-  bottom: 0px;
-  position:fixed;
-  left: 0px;
-  right:0px;
-  margin-bottom:0px;
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid;
-  border-color: rgb(122, 21, 126);
 }
 
-footer .footerList{ 
-  padding: 0;
+.container-footer .footerList{ 
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
+
 }
-footer .footerList a{ 
-  margin-left: 25px;
-  margin-right: 25px;
-  position: relative;
-  
+
+.container-footer .footerList a{ 
+  margin: 20px 25px;
 }
-footer .footerList a:hover{ 
+.container-footer .footerList a:hover{ 
   transform: scale(1.5);
   transition: 0.3s;
+
 }
-footer .footerList a img{
-  height:20px;
+.fab, .far{
+  width: 100%;
+  color: rgb(157, 157, 157);
 }
 
 /*---Termina Footer---*/

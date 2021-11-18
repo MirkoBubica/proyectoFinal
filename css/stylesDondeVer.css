@@ -56,48 +56,79 @@ header div a:hover{
 }
 /*---Termina Barra de Navegación---*/
 
+/*Cuerpo Principal*/
 
-
-
-
-/*Footer*/
-footer{
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+body{
+  background-image:url(../imagenesProyecto/FondoStardustCrusaders.jpg);
   background-repeat:no-repeat;
-  background-position: center;
+  background-position: center center;
   background-attachment: fixed;
   background-size: cover;
-
-  bottom: 0px;
-  position:fixed;
-  left: 0px;
-  right:0px;
-  margin-bottom:0px;
-  padding: 10px;
-  margin: 10px;
-  border: 2px solid;
-  border-color: rgb(122, 21, 126);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
-
-footer .footerList{ 
-  padding: 0;
+/*Partes*/
+.main-container div{
+  display: flex;
+  flex-wrap: wrap;
+}
+.main-container div div{
+  margin: 30px;
+}
+.card{
+  width: 15.5rem;
+  
+  background-color: black;
+}
+card-body {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
 }
-footer .footerList a{ 
-  margin-left: 25px;
-  margin-right: 25px;
-  position: relative;
-  
+.card-img-top{
+  height: 350px;
+  width: 100%;
 }
-footer .footerList a:hover{ 
+.card-title{
+
+}
+.btn-primary{
+  background-color: rgb(196, 19, 196);
+  border-color: violet;
+}
+
+/*Parte 1*/
+
+
+
+
+/*Termina Cuerpo Principal*/
+
+/*Footer*/
+.container-footer{
+  margin-top: auto;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+}
+
+.container-footer .footerList{ 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container-footer .footerList a{ 
+  margin: 20px 25px;
+}
+.container-footer .footerList a:hover{ 
   transform: scale(1.5);
   transition: 0.3s;
+
 }
-footer .footerList a img{
-  height:20px;
+.fab, .far{
+  width: 100%;
+  color: rgb(157, 157, 157);
 }
 
 /*---Termina Footer---*/
