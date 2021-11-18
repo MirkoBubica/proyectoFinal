@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:wght@100;300;400&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
 
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: Poppins,sans-serif;
-}
+    font-family: "Poppins", sans-serif;
+  }
 /*Barra de Navegación*/
 header {
     position: relative;
@@ -70,10 +70,7 @@ body{
     background-size: cover;
 }
 
-.principal{
-    justify-content: space-between;
 
-}
 
 .principal .carrusel{
     background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
@@ -98,7 +95,7 @@ body{
     font-family: 'Poppins', sans-serif;
     display:block;
     padding:20px;
-    margin: auto 0;
+    margin: auto;
 
 }
 .principal .info p{
@@ -112,42 +109,36 @@ body{
 /*---Termina el Cuerpo Principal---*/
 
 /*Footer*/
-footer{
+.container-footer{
     background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
     background-repeat:no-repeat;
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
 
-    bottom: 0px;
-    position:fixed;
-    left: 0px;
-    right:0px;
-    margin-bottom:0px;
-    padding: 10px;
-    margin: 10px;
-    border: 2px solid;
-    border-color: rgb(122, 21, 126);
+    display: block;
+    padding: 20px;
+    margin: 0px;
+    align-self: flex-end;
 }
 
-footer .footerList{ 
+.container-footer .footerList{ 
     padding: 0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: auto;
 }
-footer .footerList a{ 
+.container-footer .footerList a{ 
     margin-left: 25px;
     margin-right: 25px;
     position: relative;
     
 }
-footer .footerList a:hover{ 
+.container-footer .footerList a:hover{ 
     transform: scale(1.5);
     transition: 0.3s;
 }
-footer .footerList a img{
+.container-footer .footerList a img{
     height:20px;
 }
 
