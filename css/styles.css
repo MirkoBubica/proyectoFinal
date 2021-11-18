@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+/*Barra de Navegación*/
+nav{
+    background-image:url(../imagenesProyecto/fondoJojoTextura.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+nav .navegacion{
+    display: flex;
+    justify-content: space-between;
+}
+nav .navegacion .logo{
+    margin:auto;
+    padding:auto;
+    height:70px;
+}
+
+nav .navegacion a{
+    margin: auto;
+    padding:auto;
+    
+    font-family: 'PT Sans', sans-serif;
+    color: rgb(223, 206, 16);
+    background-color:rgb(77, 25, 77);
+    font-size: 17px;
+    letter-spacing:1px;
+    padding: 2px 15px;
+    font-weight:600;
+    text-decoration: none;
+    border-radius: 20px;
+    border:2px solid rgb(198, 198, 28);
+    transition: 0.2s;
+    
+}
+nav .navegacion a:hover{ 
+    color: rgb(246, 255, 67);
+    background-color:rgb(77, 25, 77);
+    border-radius: 20px;
+    transform: scale(1.2);
+    
+    
+}
+
+/*---Termina Barra de Navegación---*/
+
+
+/*Cuerpo Principal*/
+
+body{
+    background-image:url(../imagenesProyecto/jojoFondoVuelta.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.principal{
+    justify-content: space-between;
+
+}
+
+.principal .carrusel{
+    background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+    background-repeat:no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-size: cover;
+    border: black solid 2px;
+
+    display: inline-block;
+    padding:20px;
+    margin: 10px;
+    max-width: 1000px;
+    max-height: 1000px;
+    
+
+}
+.principal .carrusel .carousel-inner{
+    border: 2pxb solid black;
+}
+.principal .info{
+    font-family: 'Poppins', sans-serif;
+    display:block;
+    padding:20px;
+    margin: auto 0;
+
+}
+.principal .info p{
+    text-align: left;
+    font-size: 2.5vh;
+    font-weight: bold;
+    color: rgb(123, 14, 123);
+    text-shadow: 1px 2px black;
+}
+
+/*---Termina el Cuerpo Principal---*/
+
+/*Footer*/
+footer{
+    background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+    background-repeat:no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+
+    bottom: 0px;
+    position:fixed;
+    left: 0px;
+    right:0px;
+    margin-bottom:0px;
+    padding: 10px;
+    margin: 10px;
+    border: 2px solid;
+    border-color: rgb(122, 21, 126);
+}
+
+footer .footerList{ 
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+footer .footerList a{ 
+    margin-left: 25px;
+    margin-right: 25px;
+    position: relative;
+    
+}
+footer .footerList a:hover{ 
+    transform: scale(1.5);
+    transition: 0.3s;
+}
+footer .footerList a img{
+    height:20px;
+}
+
+
+/*---Termina Footer---*/

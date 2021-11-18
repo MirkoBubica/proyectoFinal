@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;1,400&family=Roboto:wght@100;300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@400;700&display=swap');
+
+
+/*Barra de Navegación*/
+nav{
+  background-image:url(../imagenesProyecto/JojoFondoTexturaHD.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+nav .navegacion{
+  display: flex;
+  justify-content: space-between;
+}
+nav .navegacion .logo{
+  margin:auto;
+  padding:auto;
+  height:70px;
+}
+
+nav .navegacion a{
+  margin: auto;
+  padding:auto;
+  
+  font-family: 'PT Sans', sans-serif;
+  color: rgb(223, 206, 16);
+  background-color:rgb(77, 25, 77);
+  font-size: 17px;
+  letter-spacing:1px;
+  padding: 2px 15px;
+  font-weight:600;
+  text-decoration: none;
+  border-radius: 20px;
+  border:2px solid rgb(198, 198, 28);
+  transition: 0.2s;
+  
+}
+nav .navegacion a:hover{ 
+  color: rgb(118, 17, 138);
+  background-color:rgb(195, 208, 55);
+  border-color: rgb(135, 8, 135);
+  border-radius: 20px;
+  transform: scale(1.2);
+  
+  
+}
+/*---Termina Barra de Navegación---*/
+
+/*Cuerpo Principal*/
+
+body{
+  background-image:url(../imagenesProyecto/FondoStoneMask.png);
+  background-repeat:no-repeat;
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+main p{
+  display: block;
+  justify-content:center;
+  text-align:center;
+  font-size: 40px;
+  font-weight: 600;
+  color: rgb(244, 254, 53);
+  font-style: oblique;
+}
+.galeria{
+  margin: 0px 100px;
+  margin-bottom:80px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.galeria div img{
+  margin: 3px;
+  width: 16.6rem;
+  height: 9.6rem;
+  border: 2px double rgb(147, 4, 169);
+  transition:0.3s;
+}
+
+.galeria div img:hover{
+  transform: scale(1.5)
+}
+/*---Termina el Cuerpo Principal---*/
+
+/*Footer*/
+footer{
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+
+  bottom: 0px;
+  position:fixed;
+  left: 0px;
+  right:0px;
+  margin-bottom:0px;
+  padding: 10px;
+  margin: 10px;
+  border: 2px solid;
+  border-color: rgb(122, 21, 126);
+}
+
+footer .footerList{ 
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+footer .footerList a{ 
+  margin-left: 25px;
+  margin-right: 25px;
+  position: relative;
+  
+}
+footer .footerList a:hover{ 
+  transform: scale(1.5);
+  transition: 0.3s;
+}
+footer .footerList a img{
+  height:20px;
+}
+
+/*---Termina Footer---*/
