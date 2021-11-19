@@ -5,7 +5,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins",sans-serif;
+  font-family: Poppins,sans-serif;
 }
 /*Barra de Navegación*/
 header {
@@ -19,7 +19,7 @@ header {
   background-size: cover;
 }
 header .logo{
-  margin-inline-start: 100px;
+  margin-inline-start: 0px;
   margin-inline-end: 0px;
   height:70px;
 }
@@ -51,45 +51,79 @@ header div a:hover{
 /*---Termina Barra de Navegación---*/
 
 /*Cuerpo Principal*/
-
 body{
-  background-image:url(../imagenesProyecto/FondoStardustCrusaders.jpg);
-  background-repeat:no-repeat;
-  background-position: center center;
+  background-image:url(../imagenesProyecto/AllJojosFondo.jpg);
   background-attachment: fixed;
   background-size: cover;
   height: 100vh;
   display: flex;
   flex-direction: column;
 }
-/*Partes*/
-.main-container div{
-  display: flex;
-  flex-wrap: wrap;
+.main-container .container-jojos div{
+  margin: 7vh 35vh;
+  padding:1vh;
+  background-image: url(../imagenesProyecto/JojoPatternBackgroundGray.png);
+  border: solid 0.4vh;
+  border-radius:1vh;
+  text-align: center;
+  background-attachment: fixed;
+  background-size: cover;
 }
-.main-container div div{
-  margin: 30px;
+.main-container .container-jojos div h2{
+  font-weight: 700;
+  color: rgb(198, 6, 198);
+  text-shadow: 0 0 3px #8100ac, 0 0 5px #7e0396;
 }
-.card{
-  width: 15.5rem;
-  
-  background-color: black;
+.main-container .container-jojos div img{
+  max-width: 17vh;
+  float:right;
+  border-radius: 20px;
+  border: 2px solid rgb(108, 8, 109);
+  margin: 1vh;
 }
-card-body {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.main-container .container-jojos div p{
+  margin: 1.5vh;
+  font-weight: 600;
+  color: rgb(196, 196, 196);
+  text-shadow: 0 0 2px #000000;
+  font-size:2vh; 
 }
-.card-img-top{
-  height: 350px;
-  width: 100%;
-}
-.card-title{
+/*Joseph*/
+.main-container .container-jojos .joseph h2{
+  color: rgb(0, 147, 34);
+  text-shadow: 0 0 3px #26ff04, 0 0 5px #13e679;
 
 }
-.btn-primary{
-  background-color: rgb(196, 19, 196);
-  border-color: violet;
+.main-container .container-jojos .joseph img{
+  border-color: rgb(2, 171, 2);
+}
+
+/*Jotaro*/
+.main-container .container-jojos .jotaro h2{
+  color: rgb(75, 0, 167);
+  text-shadow: 0 0 3px #130846, 0 0 5px #110248;
+
+}
+.main-container .container-jojos .jotaro img{
+  border-color: rgb(94, 1, 160);
+}
+/*Josuke*/
+.main-container .container-jojos .josuke h2{
+  color: rgb(43, 12, 240);
+  text-shadow: 0 0 3px #0d0630, 0 0 5px #0e013e;
+
+}
+.main-container .container-jojos .josuke img{
+  border-color: rgb(35, 1, 160);
+}
+/*Giorno*/
+.main-container .container-jojos .giorno h2{
+  color: rgb(227, 210, 26);
+  text-shadow: 0 0 3px #e5f71a, 0 0 5px #b3b329;
+
+}
+.main-container .container-jojos .giorno img{
+  border-color: rgb(225, 181, 4);
 }
 
 /*Termina Cuerpo Principal*/

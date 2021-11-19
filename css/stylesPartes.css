@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding: 10px 100px;
   background-image:url(../imagenesProyecto/fondoJojoTexturaNegra.png);
   background-attachment: fixed;
   background-size: cover;
@@ -23,15 +23,13 @@ header .logo{
   margin-inline-end: 0px;
   height:70px;
 }
-
 header .navegacion a:not(:last-child) {
   margin-right: 30px;
 }
 header div{
   margin-right: 70px;
 }
-header div a{
-      
+header div a{ 
   font-family: 'PT Sans', sans-serif;
   color: rgb(255, 255, 255);
   background-color:rgb(31, 29, 31);

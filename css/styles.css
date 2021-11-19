@@ -6,14 +6,14 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
-  }
+}
 /*Barra de Navegación*/
 header {
     width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-
+    padding: 10px 100px;
     background-image:url(../imagenesProyecto/fondoJojoTextura.png);
     background-attachment: fixed;
     background-size: cover;
@@ -67,8 +67,6 @@ body{
     display: flex;
     flex-direction: column;
 }
-
-
 
 .principal .carrusel{
     background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);

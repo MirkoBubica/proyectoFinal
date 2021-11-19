@@ -13,7 +13,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
+  padding: 10px 100px;
   background-image:url(../imagenesProyecto/JojoFondoTexturaHD.png);
   background-attachment: fixed;
   background-size: cover;
@@ -23,7 +23,6 @@ header .logo{
   margin-inline-end: 0px;
   height:70px;
 }
-
 header .navegacion a:not(:last-child) {
   margin-right: 30px;
 }
