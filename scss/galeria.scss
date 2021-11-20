@@ -1,0 +1,44 @@
+@import"imports/tipografia";
+@import"imports/header";
+@import"imports/body";
+@import"imports/footer";
+/*SCSS*/
+body {
+  background-image:url(../imagenesProyecto/FondoStoneMask.png);
+  div{
+    div{
+      p{
+        display: block;
+        justify-content:center;
+        text-align:center;
+        font-size: 4vh;
+        font-weight: 600;
+        color: rgb(244, 254, 53);
+        font-style: oblique;
+      }
+    }
+    .galeria{
+      margin: 0vh 10vh;
+      margin-bottom:7.5vh;
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+      div{
+        img{
+          background-color:black;
+          margin: 0.3vh;
+          width: 28vh;
+          height: 16vh;
+          border: 0.2vh double rgb(147, 4, 169);
+          transition:0.3s;
+        }
+        img:hover{
+          transform: scale(1.5)
+        }
+      }
+    }
+  }
+}
+/*TERMINA SCSS*/
+@import"imports/mobile";

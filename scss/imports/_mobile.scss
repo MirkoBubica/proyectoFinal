@@ -1,0 +1,15 @@
+/*Mobile*/
+@media only screen and (max-width:800px){
+    /*Header*/
+    .header-desktop{
+      display: none;
+  }
+  .header-mobile{
+      display: flex;
+      padding-left:1vh;
+  }
+  /*Footer*/
+  .container-footer .footerList a:hover{
+      transform: scale(1);
+  }
+}

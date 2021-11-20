@@ -1,0 +1,38 @@
+@import"imports/tipografia";
+@import"imports/header";
+@import"imports/body";
+@import"imports/footer";
+/*SCSS*/
+body{
+  background-image:url(../imagenesProyecto/FondoStardustCrusaders.jpg);
+  .main-container{
+    .container-partes{
+      display: flex;
+      flex-wrap: wrap;
+      div{
+        margin: 3vh;
+        .card{
+          width: 15.5rem;
+          background-color: black;
+          .card-img-top{
+            height: 40vh;
+            width: 100%;
+          }
+          .card-body{
+            justify-content: center;
+            align-items: center;
+            .card-title{
+              color: rgb(160, 160, 160);
+            }
+            .btn-primary{
+              background-color: rgb(196, 19, 196);
+              border-color: violet;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+/*TERMINA SCSS*/
+@import"imports/mobile";

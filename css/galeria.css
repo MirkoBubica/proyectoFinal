@@ -95,76 +95,39 @@ body {
 /*TERMINA IMPORT FOOTER*/
 /*SCSS*/
 body {
-  background-image: url(../imagenesProyecto/AllJojosFondo.jpg);
+  background-image: url(../imagenesProyecto/FondoStoneMask.png);
 }
 
-body .main-container .container-jojos div {
-  margin: 7vh 35vh;
-  padding: 1vh;
-  background-image: url(../imagenesProyecto/JojoPatternBackgroundGray.png);
-  border: solid 0.4vh;
-  border-radius: 1vh;
+body div div p {
+  display: block;
+  justify-content: center;
   text-align: center;
-  background-attachment: fixed;
-  background-size: cover;
-}
-
-body .main-container .container-jojos div h2 {
-  font-weight: 700;
-  color: #c606c6;
-  text-shadow: 0 0 3px #8100ac, 0 0 5px #7e0396;
-}
-
-body .main-container .container-jojos div img {
-  max-width: 17vh;
-  float: right;
-  border-radius: 20px;
-  border: 2px solid #6c086d;
-  margin: 1vh;
-}
-
-body .main-container .container-jojos div p {
-  margin: 1.5vh;
+  font-size: 4vh;
   font-weight: 600;
-  color: #c4c4c4;
-  text-shadow: 0 0 2px #000000;
-  font-size: 2vh;
+  color: #f4fe35;
+  font-style: oblique;
 }
 
-body .main-container .container-jojos .joseph h2 {
-  color: #009322;
-  text-shadow: 0 0 3px #26ff04, 0 0 5px #13e679;
+body div .galeria {
+  margin: 0vh 10vh;
+  margin-bottom: 7.5vh;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-body .main-container .container-jojos .joseph img {
-  border-color: #02ab02;
+body div .galeria div img {
+  background-color: black;
+  margin: 0.3vh;
+  width: 28vh;
+  height: 16vh;
+  border: 0.2vh double #9304a9;
+  transition: 0.3s;
 }
 
-body .main-container .container-jojos .jotaro h2 {
-  color: #4b00a7;
-  text-shadow: 0 0 3px #130846, 0 0 5px #110248;
-}
-
-body .main-container .container-jojos .jotaro img {
-  border-color: #5e01a0;
-}
-
-body .main-container .container-jojos .josuke h2 {
-  color: #2b0cf0;
-  text-shadow: 0 0 3px #0d0630, 0 0 5px #0e013e;
-}
-
-body .main-container .container-jojos .josuke img {
-  border-color: #2301a0;
-}
-
-body .main-container .container-jojos .giorno h2 {
-  color: #e3d21a;
-  text-shadow: 0 0 3px #e5f71a, 0 0 5px #b3b329;
-}
-
-body .main-container .container-jojos .giorno img {
-  border-color: #e1b504;
+body div .galeria div img:hover {
+  transform: scale(1.5);
 }
 
 /*TERMINA SCSS*/

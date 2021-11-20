@@ -7,7 +7,7 @@ header{
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2vh 15vh;
+  padding: 1.5vh 15vh;
   background-image:url(../imagenesProyecto/fondoJojoTexturaNegra.png);
   background-attachment: fixed;
   background-size: cover;
@@ -38,17 +38,6 @@ header{
       background-color:rgb(255, 255, 255);
       transform: scale(1.2);
     }
-  }
-}
-
-@media only screen and (max-width:800px){
-  /*Header*/
-  .header-desktop{
-      display: none;
-  }
-  .header-mobile{
-      display: flex;
-      padding-left:1vh;
   }
 }
 /*TERMINA IMPORT HEADER*/
