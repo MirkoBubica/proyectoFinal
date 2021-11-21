@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins",sans-serif;
 }
 
 /*IMPORT HEADER*/
@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.5vh 15vh;
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webP);
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@ header .logo:hover {
 }
 
 header .navegacion a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   background-color: #1f1d1f;
   font-size: 2vh;
@@ -73,8 +73,8 @@ body {
 /*IMPORT FOOTER*/
 .container-footer {
   margin-top: auto;
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
   background-size: cover;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
 }
 
 .container-footer .footerList {
@@ -100,7 +100,7 @@ body {
 /*TERMINA IMPORT FOOTER*/
 /*SCSS*/
 body {
-  background-image: url(../imagenesProyecto/FondoStardustCrusaders.jpg);
+  background-image: url(../imagenesProyecto/FondoStardustCrusaders.webp);
 }
 
 body .main-container .container-partes {
@@ -123,8 +123,10 @@ body .main-container .container-partes div .card .card-img-top {
 }
 
 body .main-container .container-partes div .card .card-body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
   justify-content: center;
-  align-items: center;
 }
 
 body .main-container .container-partes div .card .card-body .card-title {
@@ -132,8 +134,12 @@ body .main-container .container-partes div .card .card-body .card-title {
 }
 
 body .main-container .container-partes div .card .card-body .btn-primary {
-  background-color: #c413c4;
-  border-color: violet;
+  background-color: #6a076a;
+  border-color: #cd2ecd;
+}
+
+body .main-container .container-partes div .card .card-body .btn-primary:hover {
+  background-color: #cb11cb;
 }
 
 /*TERMINA SCSS*/

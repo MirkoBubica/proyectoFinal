@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins",sans-serif;
 }
 
 /*IMPORT HEADER*/
@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.5vh 15vh;
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webP);
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@ header .logo:hover {
 }
 
 header .navegacion a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   background-color: #1f1d1f;
   font-size: 2vh;
@@ -73,8 +73,8 @@ body {
 /*IMPORT FOOTER*/
 .container-footer {
   margin-top: auto;
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
   background-size: cover;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
 }
 
 .container-footer .footerList {
@@ -100,15 +100,14 @@ body {
 /*TERMINA IMPORT FOOTER*/
 /*SCSS*/
 body {
-  background-image: url(../imagenesProyecto/jojoFondoVuelta.png);
+  background-image: url(../imagenesProyecto/jojoFondoVuelta.webp);
 }
 
 body .principal .carrusel {
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
   background-attachment: fixed;
   background-size: cover;
   border: black solid 0.2vh;
-  display: inline-block;
   padding: 2vh;
   margin: 1vh;
   max-width: 100vh;

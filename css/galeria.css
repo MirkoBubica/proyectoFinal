@@ -4,7 +4,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Poppins,sans-serif;
+  font-family: "Poppins",sans-serif;
 }
 
 /*IMPORT HEADER*/
@@ -18,7 +18,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding: 1.5vh 15vh;
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webP);
   background-size: cover;
 }
 
@@ -34,7 +34,7 @@ header .logo:hover {
 }
 
 header .navegacion a {
-  font-family: 'PT Sans', sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: white;
   background-color: #1f1d1f;
   font-size: 2vh;
@@ -73,8 +73,8 @@ body {
 /*IMPORT FOOTER*/
 .container-footer {
   margin-top: auto;
-  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.png);
   background-size: cover;
+  background-image: url(../imagenesProyecto/fondoJojoTexturaNegra.webp);
 }
 
 .container-footer .footerList {
@@ -100,12 +100,11 @@ body {
 /*TERMINA IMPORT FOOTER*/
 /*SCSS*/
 body {
-  background-image: url(../imagenesProyecto/FondoStoneMask.png);
+  background-image: url(../imagenesProyecto/FondoStoneMask.webp);
 }
 
 body div div p {
-  display: block;
-  justify-content: center;
+  margin: 0;
   text-align: center;
   font-size: 4vh;
   font-weight: 600;
@@ -122,17 +121,17 @@ body div .galeria {
   justify-content: center;
 }
 
-body div .galeria div img {
+body div .galeria img {
   background-color: black;
-  margin: 0.3vh;
+  margin: 0.4vh;
   width: 28vh;
   height: 16vh;
-  border: 0.2vh double #9304a9;
+  border: 0.2vh solid #9304a9;
   transition: 0.3s;
 }
 
-body div .galeria div img:hover {
-  transform: scale(1.5);
+body div .galeria img:hover {
+  transform: scale(1.6);
 }
 
 /*TERMINA SCSS*/

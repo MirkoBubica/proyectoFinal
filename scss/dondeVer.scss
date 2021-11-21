@@ -4,7 +4,7 @@
 @import"imports/footer";
 /*SCSS*/
 body{
-  background-image:url(../imagenesProyecto/FondoStardustCrusaders.jpg);
+  background-image:url(../imagenesProyecto/FondoStardustCrusaders.webp);
   .main-container{
     .container-partes{
       display: flex;
@@ -19,14 +19,20 @@ body{
             width: 100%;
           }
           .card-body{
+            display: flex;
+            flex-wrap: wrap;
+            text-align: center;
             justify-content: center;
-            align-items: center;
+
             .card-title{
               color: rgb(160, 160, 160);
             }
             .btn-primary{
-              background-color: rgb(196, 19, 196);
-              border-color: violet;
+              background-color: rgb(106, 7, 106);
+              border-color: rgb(205, 46, 205);
+            }
+            .btn-primary:hover{
+              background-color: rgb(203, 17, 203);
             }
           }
         }
